@@ -1,8 +1,3 @@
-* {
-  margin: 0;
-  box-sizing: border-box;
-}
-
 html,
 body {
   margin: 0;
@@ -243,6 +238,21 @@ header {
   font-style: normal;
 }
 
+.buy .text-link {
+  width: 100%;
+  display: flex;
+}
+
+.text-link span {
+  writing-mode: horizontal-tb;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 100%;
+  font-size: 100%;
+  flex: 1;
+}
+
 /*  */
 
 .second-block {
@@ -355,7 +365,8 @@ header {
     height: 35vw;
   }
 
-  .mem-text-l, .mem-text-r {
+  .mem-text-l,
+  .mem-text-r {
     font-size: 90%;
   }
 
@@ -376,15 +387,18 @@ header {
     margin-right: 2vw;
   }
 
-  .twitter, .buy {
+  .twitter,
+  .buy {
     height: 4.5vw;
   }
 
-  .twitter a, .buy a {
+  .twitter a,
+  .buy a {
     font-size: 4vw;
   }
 
-  .twitter-img, .buy-img {
+  .twitter-img,
+  .buy-img {
     height: 45%;
   }
 
@@ -394,17 +408,17 @@ header {
 }
 
 @media only screen and (max-width: 900px) {
-.video-mem {
-  flex-direction: column;
-  min-height: 60vh;
-}
+  .video-mem {
+    flex-direction: column;
+  }
 
   .video-player {
     width: 40%;
     height: 40vw;
   }
 
-  .mem-text-l, .mem-text-r {
+  .mem-text-l,
+  .mem-text-r {
     text-align: center;
     margin-left: 0;
     margin-right: 0;
@@ -424,22 +438,25 @@ header {
     font-size: 3vw;
   }
 
-  .twitter, .buy {
+  .twitter,
+  .buy {
     height: 5.5vw;
   }
 
-  .twitter a, .buy a {
+  .twitter a,
+  .buy a {
     font-size: 4.5vw;
   }
 
-  .twitter-img, .buy-img {
+  .twitter-img,
+  .buy-img {
     height: 50%;
   }
 
   .twitter-img {
     margin-right: 1vw;
   }
-  
+
   .buy-img {
     margin-left: 1vw;
   }
@@ -476,7 +493,8 @@ header {
     height: 50vw;
   }
 
-  .mem-text-l, .mem-text-r {
+  .mem-text-l,
+  .mem-text-r {
     font-size: 140%;
   }
 
@@ -497,22 +515,25 @@ header {
     font-size: 3.2vw;
   }
 
-  .twitter, .buy {
+  .twitter,
+  .buy {
     height: 6.5vw;
   }
 
-  .twitter a, .buy a {
+  .twitter a,
+  .buy a {
     font-size: 6vw;
   }
 
-  .twitter-img, .buy-img {
+  .twitter-img,
+  .buy-img {
     height: 55%;
   }
 
   .twitter-img {
     margin-right: 2vw;
   }
-  
+
   .buy-img {
     margin-left: 2vw;
   }
@@ -545,7 +566,8 @@ header {
     height: 60vw;
   }
 
-  .mem-text-l, .mem-text-r {
+  .mem-text-l,
+  .mem-text-r {
     font-size: 160%;
   }
 
@@ -566,12 +588,14 @@ header {
     font-size: 3.2vw;
   }
 
-  .twitter, .buy {
+  .twitter,
+  .buy {
     height: 8.5vw;
     width: 45%;
   }
 
-  .twitter a, .buy a {
+  .twitter a,
+  .buy a {
     font-size: 8vw;
   }
 
