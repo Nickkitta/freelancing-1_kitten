@@ -55,6 +55,16 @@ header {
   font-size: 35%;
 }
 
+.social-link span {
+  writing-mode: horizontal-tb;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 100%;
+  font-size: 100%;
+  flex: 1;
+}
+
 .social-link img {
   height: 70%;
   margin-right: 0.5vw;
